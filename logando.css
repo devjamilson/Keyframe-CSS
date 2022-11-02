@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: rgb(16, 16, 16);
+}
+
+.carregando1, .carregando2, .carregando3, .carregando4, .carregando5, .carregando6, .carregando7, .carregando8{
+    height: 1.5vh;
+    width: 1.5vh;
+    border-radius: 100%;
+    position: absolute;
+    background-color: rgb(0, 255, 34);
+}
+
+.carregando1{
+    animation: bola 1.2s infinite;
+}
+
+.carregando2{
+    animation: bola 1s infinite;
+}
+
+.carregando3{
+    animation: bola .8s infinite;
+}
+
+.carregando4{
+    animation: bola .7s infinite;
+}
+
+.carregando5{
+    animation: bola .6s infinite;
+}
+.carregando6{
+    animation: bola .5s infinite;
+}
+.carregando7{
+    animation: bola .4s infinite;
+}
+.carregando8{
+    animation: bola .3s infinite;
+}
+
+
+@keyframes bola {
+	from {
+		transform: rotate(0deg) translateX(30px);
+	} to {
+		transform: rotate(360deg) translateX(30px);
+	}
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(16, 16, 16);
+}
+
+section{
+   height: 70vh;
+   width: 30vw;
+   background-color: rgb(16, 16, 16);
+   border-radius: 20px;
+   border: 2px solid rgb(0, 255, 34);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   transition: 1s;
+}
+
+
+section div{
+    display: flex;
+    flex-direction: column;width: 90%;
+}
+
+section div input{
+    height: 7vh;
+    border: 2px solid rgb(0, 255, 34);
+    border-radius: 10px;
+    background-color: rgb(29, 29, 29);
+    padding-left: 15px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+section div label{
+    color: rgb(167, 233, 176);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 1vh;
+}
+
+section h1{
+    color: rgb(0, 255, 34);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+}
+
+section a{
+    margin-top: 5vh;
+    background-color: rgb(0, 255, 34);
+    height: 7vh;
+    border-radius: 10px;
+    width: 30%;
+    cursor: pointer;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+section button{
+    background-color: transparent;
+    
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none; 
+    font-size: 15px;
+    color: rgb(29, 29, 29);
+}
